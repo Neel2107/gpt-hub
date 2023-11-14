@@ -57,7 +57,7 @@ const Hero = () => {
             />
           </div>
         </div> */}
-        <div className="cards grid grid-cols-3 gap-5 mt-5">
+        <div className="cards grid grid-cols-3 gap-5 my-5">
           {/* {gpts.map((gpt) => {
             return (
               <Card

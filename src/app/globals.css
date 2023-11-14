@@ -24,3 +24,8 @@ body {
 .Navbar{
   background-color: #faf6f4;
 }
+
+
+.theHero{
+  background-image: url(../../public/the-main-bg-01.jpeg);
+}

@@ -49,7 +49,7 @@ const Card = ({ name, author, description, logo, tools, id }) => {
           <span>By {author}</span>
           <div className="icons flex gap-3">
             <div class="svg-wrap inline-flex items-center justify-center action h-[24px] w-[24px] cursor-pointer ">
-            <Link href={"./pages/" + id}>
+            <Link href={"./GPTs/" + id}>
                 <svg
                 class="w-full h-full "
                 xmlns="http://www.w3.org/2000/svg"

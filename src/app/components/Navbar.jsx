@@ -6,10 +6,10 @@ const Navbar = () => {
     <div className="Navbar fixed bg-base-100 px-4 lg:px-8 top-0 z-30 flex h-16 w-full justify-between items-center bg-opacity-90 backdrop-blur transition-all duration-100 [transform:translate3d(0,0,0)] shadow-sm dark:shadow-slate-500/20">
       <div className="left">
         <Image
-          src={"./vercel.svg"}
-          width={100}
-          height={100}
-          alt="vercel icon.."
+          src={"./chatgpt-icon.svg"}
+          width={50}
+          height={50}
+          alt="chat-gpt icon.."
         ></Image>
       </div>
       <div className="right">

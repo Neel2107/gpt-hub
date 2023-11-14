@@ -24,7 +24,7 @@ const Hero = () => {
   };
   return (
     <div className="px-6 pt-[100px] lg:max-w-screen-2xl m-auto ">
-      <div className="theHero h-[70vh] bg-cover flex flex-col rounded-3xl my-3 justify-center ">
+    <div className="theHero h-[70vh] bg-cover flex flex-col rounded-3xl my-3 justify-center ">
         <h2 className="text-5xl p-5 text-white font-bold">
           Search Any GPT Here..
         </h2>

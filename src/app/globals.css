@@ -28,4 +28,5 @@ body {
 
 .theHero{
   background-image: url(../../public/the-main-bg-01.jpeg);
+  background-position: 50% 70%;
 }

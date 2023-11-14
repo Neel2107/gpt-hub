@@ -61,10 +61,10 @@ const GPT = ({ id }) => {
                 <p className="text-green-700 font-bold">Prompts:</p>
                 <ul className="list-disc px-5">
                   
-                  {item.prompt_starters.map((prompt)=>{
+                  {item.prompt_starters?.map((prompt)=>{
                     return(
                    // eslint-disable-next-line react/jsx-key
-                   <li>{prompt.toString()}</li>
+                   <li>{prompt?.toString()}</li>
                     )
                   })}
                 </ul>

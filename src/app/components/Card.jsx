@@ -5,7 +5,7 @@ import React from "react";
 const Card = ({ name, author, description, logo, tools, id }) => {
   const imageUrl = `https://files.oaiusercontent.com/${logo}`;
   return (
-    <div className=" flex gap-3 items-center px-3 py-4 shadow-lg rounded-xl">
+    <div className=" flex gap-3 items-center px-3 py-4 shadow-lg rounded-xl transform transition duration-500 hover:scale-95">
       <div className="left min-w-max">
         <Image
           src={imageUrl}
